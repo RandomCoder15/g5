@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithm Engineer</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #2f2f2f;
+      color: #fff;
+      transition: all 0.5s ease;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #ccc;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    section {
+      background-color: #444;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #fff;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #555;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+
+    /* Scroll to top button */
+
+    .scroll-top-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #337ab7;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+    }
+
+    .scroll-top-button:hover {
+      background-color: #23527c;
+    }
+
+    /* Animations */
+
+    .animation {
+      animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeOut {
+      from {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#job-opportunities">Job Opportunities</a></li>
+        <li><a href="#scope">Scope</a></li>
+        <li><a href="#salary">Salary</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="education">
+      <h1>Education Pathway</h1>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Duration</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Bachelor's in Computer Science</td>
+          <td>3-4 years</td>
+          <td>Undergraduate degree in computer science</td>
+        </tr>
+        <tr>
+          <td>Master's in Computer Science</td>
+          <td>2-3 years</td>
+          <td>Graduate degree in computer science</td>
+        </tr>
+        <tr>
+          <td>Ph.D. in Computer Science</td>
+          <td>3-5 years</td>
+          <td>Doctoral degree in computer science</td>
+        </tr>
+      </table>
+    </section>
+    
+    <section id="skills">
+      <h1>Skills Required</h1>
+      <ul>
+        <li>Data structures (e.g., arrays, linked lists, trees)</li>
+        <li>Algorithms (e.g., sorting, searching, graph traversal)</li>
+        <li>Computer vision and machine learning</li>
+        <li>Database management systems</li>
+        <li>Operating systems</li>
+        <li>Web development frameworks (e.g., React, Angular)</li>
+      </ul>
+    </section>
+    
+    <section id="job-opportunities">
+      <h1>Job Opportunities</h1>
+      <h2>India:</h2>
+      <ul>
+        <li>Google</li>
+        <li>Microsoft</li>
+        <li>Amazon</li>
+        <li>Flipkart</li>
+        <li>Infosys</li>
+      </ul>
+      <h2>Abroad:</h2>
+      <ul>
+        <li>Google (US)</li>
+        <li>Facebook (US)</li>
+        <li>Microsoft (US)</li>
+        <li>Amazon (US)</li>
+        <li>Palantir (US)</li>
+      </ul>
+    </section>
+    
+    <section id="scope">
+      <h1>Scope</h1>
+      <p>Algorithm engineers have a wide range of career opportunities in:</p>
+      <ul>
+        <li>Artificial intelligence and machine learning</li>
+        <li>Data science and analytics</li>
+        <li>Computer vision and robotics</li>
+        <li>Cybersecurity</li>
+        <li>Networking and distributed systems</li>
+      </ul>
+    </section>
+    
+    <section id="salary">
+      <h1>Salary</h1>
+      <table>
+        <tr>
+          <th>Country</th>
+          <th>Salary Range</th>
+        </tr>
+        <tr>
+          <td>India</td>
+          <td>₹8-25 lakhs per annum</td>
+        </tr>
+        <tr>
+          <td>US</td>
+          <td>$100,000-$250,000 per annum</td>
+        </tr>
+        <tr>
+          <td>UK</td>
+          <td>£50,000-£100,000 per annum</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Algorithm Engineer</p>
+  </footer>
+  
+  <script>
+    // Add event listener to navigation links
+    const navLinks = document.querySelectorAll('nav a');
+    
+    navLinks.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.href.split('#')[1];
+        const targetSection = document.getElementById(targetId);
+        
+        // Scroll to target section
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'nearest'
+        });
+      });
+    });
+    
+    // Add animation to sections
+    const sections = document.querySelectorAll('section');
+    
+    sections.forEach((section) => {
+      section.addEventListener('mouseover', () => {
+        section.classList.add('animation');
+      });
+      section.addEventListener('mouseout', () => {
+        section.classList.remove('animation');
+      });
+    });
+    
+    // Scroll to top button
+    const scrollTopButton = document.createElement('button');
+    scrollTopButton.textContent = 'Scroll to Top';
+    scrollTopButton.className = 'scroll-top-button';
+    document.body.appendChild(scrollTopButton);
+    
+    scrollTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    // Show scroll to top button on scroll
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 500) {
+        scrollTopButton.style.display = 'block';
+      } else {
+        scrollTopButton.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
+        <li>Programming languages (e.g., Python, Java, C++)</li>
